@@ -100,7 +100,7 @@ ideas = {
 						    operation_infiltrate_risk = -0.99
                 intel_network_gain_factor = 3
                 operation_outcome = 3
-                operation_cost = -0.7
+                operation_cost = -1
 						    own_operative_detection_chance_factor = -1 		         
                 
                 decryption_power = 99 
@@ -269,4 +269,4 @@ ideas = {
             
         }
     }
-    }
+}

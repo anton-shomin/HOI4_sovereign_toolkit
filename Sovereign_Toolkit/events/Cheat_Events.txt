@@ -182,3 +182,25 @@ country_event = {
 			remove_ideas = cheats_8
 	}
 }
+
+country_event = {
+	id = cheats.10
+	title = "Clear Operations"
+	desc = "Remove completed operations"
+	picture = GFX_report_event_generic_read_write
+    
+	is_triggered_only = yes
+    
+	option = {
+		name = "Clear"
+		custom_effect_tooltip = "Will clear operations"
+		clear_temp_array = completed_operations
+		clear_array = completed_operations
+		clear_array = operations_ui
+		if = {
+			limit = { has_intelligence_agency = yes }
+			remove_intelligence_agency = yes
+			set_intelligence_agency = yes
+		}
+	}
+}
