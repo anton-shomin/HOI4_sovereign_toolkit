@@ -58,19 +58,18 @@ ideas = {
                 experience_gain_army_factor = 0.35		
                 army_morale_factor = 1
                 dig_in_speed_factor = 0.75
-								army_leader_cost_factor = -0.15
-                planning_speed = 0.5
+				army_leader_cost_factor = -0.15                
                 supply_consumption_factor = -0.9
-								army_org_factor = 2
+				army_org_factor = 2
                 land_reinforce_rate = 1
                 breakthrough_factor = 0.2 # with cheat engine 0.2 
-                army_attack_factor = 0.5
-                army_defence_factor = 3.2 # with cheat engine 0.2
+                army_attack_factor = 0.56
+                army_defence_factor = 53.2 # with cheat engine 0.2
                 supply_factor = 2
                 training_time_army_factor = -0.75
-                special_forces_attack_factor = 1.5
-                special_forces_defence_factor = 3.2         # with cheat engine 3.2       
-                attrition = -0.75   
+                special_forces_attack_factor = 5.5
+                special_forces_defence_factor = 53.2         # with cheat engine 3.2       
+                attrition = -0.95   
                 special_forces_cap = 999              
             }
 

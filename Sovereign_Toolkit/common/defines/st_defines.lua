@@ -12,19 +12,18 @@
 	NDefines.NMilitary.MAX_AIR_EXPERIENCE = 9999  -- Max air experience a country can store
 	
 	
-	NDefines.VOLUNTEERS_PER_TARGET_PROVINCE = 0.5			-- Each province owned by the target country contributes this amount of volunteers to the limit.
-	NDefines.VOLUNTEERS_PER_COUNTRY_ARMY = 0.5				-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
-	NDefines.VOLUNTEERS_RETURN_EQUIPMENT = 0.5				-- Returning volunteers keep this much equipment
-	NDefines.VOLUNTEERS_TRANSFER_SPEED = 3					-- days to transfer a unit to another nation
-	NDefines.VOLUNTEERS_DIVISIONS_REQUIRED = 10
+	NDefines.NDiplomacy.VOLUNTEERS_PER_TARGET_PROVINCE = 0.5			-- Each province owned by the target country contributes this amount of volunteers to the limit.
+	NDefines.NDiplomacy.VOLUNTEERS_PER_COUNTRY_ARMY = 0.5				-- Each army unit owned by the source country contributes this amount of volunteers to the limit.
+	NDefines.NDiplomacy.VOLUNTEERS_RETURN_EQUIPMENT = 0.5				-- Returning volunteers keep this much equipment
+	NDefines.NDiplomacy.VOLUNTEERS_TRANSFER_SPEED = 3					-- days to transfer a unit to another nation
+	NDefines.NDiplomacy.VOLUNTEERS_DIVISIONS_REQUIRED = 10
 	
-	NDefines.NAVAL_SUPREMACY_CAN_INVADE = 0.05	
-	NDefines.PARADROP_AIR_SUPERIORITY_RATIO = 0.07
+	NDefines.NNavy.NAVAL_SUPREMACY_CAN_INVADE = 0.05	
+	NDefines.NCountry.PARADROP_AIR_SUPERIORITY_RATIO = 0.07
 
-    NDefines.NUKE_MIN_DAMAGE_PERCENT = 0.4
-    NDefines.NUKE_MAX_DAMAGE_PERCENT = 0.95
+   
 
-    NDefines.SUPPLY_CONVOY_FACTOR = 0.025
+    NDefines.NCountry.SUPPLY_CONVOY_FACTOR = 0.025
 	
-	NDefines.BASE_MAX_COMMAND_POWER = 9999
-	NDefines.POLITICAL_POWER_UPPER_CAP = 9999
+	NDefines.NCountry.BASE_MAX_COMMAND_POWER = 9999
+	NDefines.NCountry.POLITICAL_POWER_UPPER_CAP = 9999
