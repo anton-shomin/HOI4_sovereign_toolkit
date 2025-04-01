@@ -82,8 +82,3 @@ Greatly enhances breakthrough, attack, and defense factors
 Significantly improves naval capabilities across the board
 Dramatically enhances air force performance
 
-### Event cheats.8 - Research and Economy Boost
-Increases research speed by 30%
-Reduces consumer goods factor by 99%
-These events provide various cheats that significantly enhance different aspects of gameplay, from economy and production to military capabilities and research.
-
