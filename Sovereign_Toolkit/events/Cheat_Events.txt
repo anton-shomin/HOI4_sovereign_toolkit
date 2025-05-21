@@ -21,32 +21,6 @@ country_event = {
         name = mighty_economy.1.b
         remove_ideas = cheats_1
     }
-#this is for Millenium Dawn only
-    # option = {
-    #     name = treasury
-    #     set_temp_variable = { treasury_change = 14 }
-    #     modify_treasury_effect = yes
-    #     set_temp_variable = { interest_rate = 12 }
-    # }
-
-#    option = {
-#        name = upgrade_BLR
-#        remove_ideas = {
-#            medium_far_right_movement
-#            CSTO_member
-#            BLR_outdated_army
-#            BLR_unstable_national_currency4
-#            BLR_cheln_trade
-#            BLR_old_railways
-#            BLR_agro_industry
-#            BLR_oil_russian
-#            BLR_agriculture
-#            BLR_unstable_national_currency
-#            BLR_unstable_national_currency2
-#            BLR_unstable_national_currency3
-#            BLR_unstable_national_currency4
-#        }
-#    }
 }
 
 # Cheat Event 2 - Superior Land Military Forces Updates
@@ -164,43 +138,4 @@ country_event = {
 	
 }
 
-country_event = {
-	id = cheats.8
-	title = Cheats
-	desc = cheats
-		picture = GFX_report_event_molotov_ribentrop_handshake
 
-
-	is_triggered_only = yes
-	option = {
-		name = britain.13.a
-			add_ideas = cheats_8
-	}
-
-	option = {
-		name = britain.13.b
-			remove_ideas = cheats_8
-	}
-}
-
-country_event = {
-	id = cheats.10
-	title = "Clear Operations"
-	desc = "Remove completed operations"
-	picture = GFX_report_event_generic_read_write
-    
-	is_triggered_only = yes
-    
-	option = {
-		name = "Clear"
-		custom_effect_tooltip = "Will clear operations"
-		clear_temp_array = completed_operations
-		clear_array = completed_operations
-		clear_array = operations_ui
-		if = {
-			limit = { has_intelligence_agency = yes }
-			remove_intelligence_agency = yes
-			set_intelligence_agency = yes
-		}
-	}
-}
