@@ -74,6 +74,9 @@ ideas = {
         special_forces_defence_factor = 53.2      # with cheat engine 3.2       
         attrition = -0.95   
         special_forces_cap = 99.99
+        army_bonus_air_superiority_factor = 1.4
+        paradrop_organization_factor = 9
+		    paratrooper_aa_defense = 9
         
       }
     }
@@ -167,8 +170,9 @@ ideas = {
         air_cas_present_factor = 0.5
         naval_strike_attack_factor = 3.2 
         air_nav_efficiency = 3.2
-        air_intercept_efficiency = 0.2
+        air_intercept_efficiency = 0.5
         air_attack_factor = 0.3
+        air_defence_factor = 0.1                
         air_maximum_speed_factor = 0.2                
         air_range_factor = 4      
       }
@@ -217,13 +221,26 @@ ideas = {
         air_cas_present_factor = 6
         naval_strike_attack_factor = 17 
         air_nav_efficiency = 5
-        air_intercept_efficiency = 0.0
+        air_intercept_efficiency = 8
         air_attack_factor = 4
         air_agility_factor = 4
         air_defence_factor = 4                
         air_range_factor = 4 
          
       }
+    }
+    cheats_8 = {
+      allowed = {
+        always = no
+      }
+      ai_will_do = {
+        factor = 0
+      }
+      picture = generic_research_bonus
+      modifier = {        
+        
+      }
     }    
   }
-}
+} 
+    
