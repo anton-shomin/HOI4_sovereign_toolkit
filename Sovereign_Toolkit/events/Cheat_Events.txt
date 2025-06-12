@@ -297,4 +297,24 @@ country_event = {
 	
 }
 
+country_event = {
+	id = cheats.8
+	title = Cheats
+	desc = cheats
+    picture = GFX_report_event_molotov_ribentrop_handshake
+   
+	
+	is_triggered_only = yes
+	option = {
+        name = britain.12.a		
+			  add_ideas = cheats_8
+	}
+	
+	option = {
+		name = britain.12.b
+			remove_ideas = cheats_8		
+	}
+	
+}
+
 

@@ -23,7 +23,7 @@
 
    
 
-    NDefines.NCountry.SUPPLY_CONVOY_FACTOR = 0.025
+  NDefines.NCountry.SUPPLY_CONVOY_FACTOR = 0.025
 	
 	NDefines.NCountry.BASE_MAX_COMMAND_POWER = 9999
 	NDefines.NCountry.POLITICAL_POWER_UPPER_CAP = 9999
