@@ -240,7 +240,10 @@ ideas = {
       }
       picture = generic_research_bonus
       modifier = {        
-        
+	production_speed_buildings_factor = 0.30 # For 30% construction speed (from previous request)
+	factory_output = 0.40 # For 40% factory output (from previous request, affects all factories)
+	factory_output_military_factor = 0.30 # For 30% military factory output
+	dockyard_output_factor = 0.30 # For 30% naval dockyard output
       }
     }    
   }
