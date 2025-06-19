@@ -113,7 +113,7 @@ ideas = {
       picture = generic_research_bonus
       modifier = {
         global_building_slots_factor = 4
-        production_speed_buildings_factor = 10
+        production_speed_buildings_factor = 30
         industry_repair_factor = 10
         fuel_gain_factor = 4 
       }
@@ -240,10 +240,7 @@ ideas = {
       }
       picture = generic_research_bonus
       modifier = {        
-	production_speed_buildings_factor = 0.30 # For 30% construction speed (from previous request)
-	factory_output = 0.40 # For 40% factory output (from previous request, affects all factories)
-	factory_output_military_factor = 0.30 # For 30% military factory output
-	dockyard_output_factor = 0.30 # For 30% naval dockyard output
+	      
       }
     }    
   }
