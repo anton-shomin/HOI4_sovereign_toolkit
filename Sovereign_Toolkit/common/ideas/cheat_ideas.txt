@@ -54,20 +54,23 @@ ideas = {
 				send_volunteers_tension = -1
 				send_volunteer_size = 500
 				air_volunteer_cap = 2000
-				join_faction_tension = -2
+				join_faction_tension = -1
 				lend_lease_tension = -1
 				request_lease_tension = -1
+        army_intel_factor = 1
         female_random_army_leader_chance = 0.15
         experience_gain_army_factor = 0.35		
         army_morale_factor = 1
+        recon_factor = 1
         dig_in_speed_factor = 0.75
 				army_leader_cost_factor = -0.15                
         supply_consumption_factor = -0.9
 				army_org_factor = 2
+        initiative_factor = 2
         land_reinforce_rate = 1
         breakthrough_factor = 0.2 # with cheat engine 0.2 
         army_speed_factor = 0.6
-        army_attack_factor = 0.56
+        army_attack_factor = 0.76
         army_defence_factor = 153.2 # with cheat engine 0.2
         supply_factor = 2
         training_time_army_factor = -0.75
@@ -78,7 +81,7 @@ ideas = {
         army_bonus_air_superiority_factor = 1.4
         paradrop_organization_factor = 9
 		    paratrooper_aa_defense = 9
-        
+        enemy_army_bonus_air_superiority_factor = -0.25
       }
     }
     cheats_3 = {
@@ -112,10 +115,10 @@ ideas = {
       }
       picture = generic_research_bonus
       modifier = {
-        global_building_slots_factor = 4
+        global_building_slots_factor = 8
         production_speed_buildings_factor = 30
         industry_repair_factor = 10
-        fuel_gain_factor = 4 
+        fuel_gain_factor = 14 
       }
     }
     cheats_5 = {
@@ -240,7 +243,40 @@ ideas = {
       }
       picture = generic_research_bonus
       modifier = {        
-	      
+        naval_speed_factor = 400
+        army_speed_factor = 400  
+        breakthrough_factor = 75
+        army_attack_factor = 75
+        army_defence_factor = 750
+        supply_factor = 200
+        training_time_army_factor = -0.95
+
+        experience_gain_navy_factor = 0.25
+        navy_anti_air_attack_factor = 1
+        convoy_escort_efficiency = 10 
+        convoy_raiding_efficiency_factor = 1
+        critical_receive_chance = 0
+        naval_damage_factor = 2
+        naval_defense_factor = 8
+        naval_detection = 8
+        navy_max_range_factor = 8
+        naval_torpedo_hit_chance_factor = 1
+        naval_invasion_prep_speed = -0.5
+
+        #carriers and their planes
+        navy_carrier_air_targetting_factor = 1
+        navy_carrier_air_agility_factor = 1
+        navy_carrier_air_attack_factor = 0.1 
+
+        air_cas_present_factor = 6
+        naval_strike_attack_factor = 17 
+        air_nav_efficiency = 5
+        air_intercept_efficiency = 8
+        air_attack_factor = 4
+        air_agility_factor = 4
+        air_defence_factor = 4                
+        air_range_factor = 4
+        air_strategic_bomber_bombing_factor = 13
       }
     }    
   }
