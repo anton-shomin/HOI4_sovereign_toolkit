@@ -1,8 +1,4 @@
-I'll update the `README.md` file based on the provided `ideas` section, reflecting the actual values and adding new effects for each cheat.
-
----
-
-# HOI4_sovereign_toolkit
+### HOI4_sovereign_toolkit
 
 This toolkit provides a series of powerful cheat events designed to give players significant advantages in Hearts of Iron IV. Each cheat focuses on a specific aspect of gameplay, from economic boosts to military superiority and intelligence operations.
 
@@ -13,15 +9,16 @@ This toolkit provides a series of powerful cheat events designed to give players
 This cheat significantly enhances your nation's economic and industrial capabilities.
 
 - Increases **construction speed** by 2000% (`construction_speed_factor = 20`)
-- Increases **production efficiency** (both factories and dockyards) by 400% (`production_factory_max_efficiency_factor = 4`, `production_dockyard_max_efficiency_factor = 4`)
+- Increases **production efficiency** (both factories and dockyards) by 600% (`production_factory_max_efficiency_factor = 6`, `production_dockyard_max_efficiency_factor = 6`)
 - Increases **production efficiency gain** by 400% (`production_factory_efficiency_gain_factor = 4`, `production_dockyard_efficiency_gain_factor = 4`)
 - Increases **production line change efficiency** by 2300% (`line_change_production_efficiency_factor = 23`)
-- Increases **industrial capacity** for factories and dockyards by 400% (`industrial_capacity_factory = 4`, `industrial_capacity_dockyard = 4`)
+- Increases **industrial capacity** for factories and dockyards by 600% (`industrial_capacity_factory = 6`, `industrial_capacity_dockyard = 6`)
 - Reduces **industrial damage from air attacks** by 125% (`industry_air_damage_factor = -1.25`)
 - Increases **local resource factor** by 1500% (`local_resources_factor = 15`)
 - **Eliminates production penalties from lack of resources** by 400% (`production_lack_of_resource_penalty_factor = -4`)
 - Massively increases **production speed for railways, nuclear reactors, supply nodes, and naval bases** by 1600% (`production_speed_rail_way_factor = 16`, `production_speed_nuclear_reactor_factor = 16`, `production_speed_supply_node_factor = 16`, `production_speed_naval_base_factor = 16`)
-- Reduces **fuel consumption for army, air force, and navy** by 100% (`army_fuel_consumption_factor = -1`, `air_fuel_consumption_factor = -1`, `navy_fuel_consumption_factor = -1`)
+- Reduces **fuel consumption for army, air force, and navy** by 80% (`army_fuel_consumption_factor = -0.8`, `air_fuel_consumption_factor = -0.8`, `navy_fuel_consumption_factor = -0.8`)
+- Increases **fuel gain** by 400% (`fuel_gain_factor = 4`, `fuel_gain_factor_from_states = 4`)
 - Reduces **tension generated from war goals** by 50% (`generate_wargoal_tension = -0.5`)
 - Reduces **time to justify war goals** by 85% (`justify_war_goal_time = -0.85`)
 
@@ -31,13 +28,13 @@ This cheat significantly enhances your nation's economic and industrial capabili
 
 This cheat grants your land forces overwhelming power and efficiency.
 
-- Reduces **volunteer divisions required** by 75% (`send_volunteer_divisions_required = -0.75`)
+- Reduces **volunteer divisions required** by 85% (`send_volunteer_divisions_required = -0.85`)
 - Increases **volunteer sending factor** by 85% (`send_volunteer_factor = 0.85`)
 - Reduces **tension from sending volunteers, lend-lease, and requesting lease** by 100% (`send_volunteers_tension = -1`, `lend_lease_tension = -1`, `request_lease_tension = -1`)
 - Increases **volunteer air wing cap** by 2000 (`air_volunteer_cap = 2000`)
 - Increases **volunteer division size** by 500 (`send_volunteer_size = 500`)
-- Reduces **tension from joining factions** by 200% (`join_faction_tension = -2`)
-- Increases **chance of female random army leaders** by 15% (`female_random_army_leader_chance = 0.15`)
+- Reduces **tension from joining factions** by 100% (`join_faction_tension = -1`)
+- Increases **chance of female random army leaders** by 35% (`female_random_army_leader_chance = 0.35`)
 - Increases **army experience gain** by 35% (`experience_gain_army_factor = 0.35`)
 - Increases **army morale** by 100% (`army_morale_factor = 1`)
 - Increases **entrenchment speed** by 75% (`dig_in_speed_factor = 0.75`)
@@ -47,10 +44,10 @@ This cheat grants your land forces overwhelming power and efficiency.
 - Increases **land reinforcement rate** by 100% (`land_reinforce_rate = 1`)
 - Increases **breakthrough factor** by 20% (`breakthrough_factor = 0.2`)
 - Increases **army speed** by 60% (`army_speed_factor = 0.6`)
-- Increases **army attack factor** by 56% (`army_attack_factor = 0.56`)
+- Increases **army attack factor** by 76% (`army_attack_factor = 0.76`)
 - Increases **army defense factor** by 15320% (`army_defence_factor = 153.2`)
 - Increases **supply factor** by 200% (`supply_factor = 2`)
-- Reduces **army training time** by 75% (`training_time_army_factor = -0.75`)
+- Reduces **army training time** by 50% (`training_time_army_factor = -0.5`)
 - Increases **special forces attack factor** by 550% (`special_forces_attack_factor = 5.5`)
 - Increases **special forces defense factor** by 5320% (`special_forces_defence_factor = 53.2`)
 - Reduces **attrition** by 95% (`attrition = -0.95`)
@@ -58,6 +55,10 @@ This cheat grants your land forces overwhelming power and efficiency.
 - Increases **army bonus from air superiority** by 140% (`army_bonus_air_superiority_factor = 1.4`)
 - Increases **paradrop organization factor** by 900% (`paradrop_organization_factor = 9`)
 - Increases **paratrooper AA defense** by 900% (`paratrooper_aa_defense = 9`)
+- Reduces **enemy army bonus from air superiority** by 25% (`enemy_army_bonus_air_superiority_factor = -0.25`)
+- Increases **army intelligence factor** by 100% (`army_intel_factor = 1`)
+- Increases **reconnaissance factor** by 100% (`recon_factor = 1`)
+- Increases **initiative factor** by 200% (`initiative_factor = 2`)
 
 ---
 
@@ -82,9 +83,10 @@ This cheat provides unparalleled advantages in espionage and covert actions.
 
 This cheat allows for massive industrial expansion and rapid repairs.
 
-- Increases **global building slots factor** by 400% (`global_building_slots_factor = 4`)
-- Increases **building production speed** by 1000% (`production_speed_buildings_factor = 10`)
+- Increases **global building slots factor** by 800% (`global_building_slots_factor = 8`)
+- Increases **building production speed** by 3000% (`production_speed_buildings_factor = 30`)
 - Increases **industry repair factor** by 1000% (`industry_repair_factor = 10`)
+- Increases **fuel gain** by 1400% (`fuel_gain_factor = 14`)
 
 ---
 
@@ -176,3 +178,12 @@ This cheat combines many of the most powerful modifiers from other cheats into o
 - Increases **air agility factor** by 400% (`air_agility_factor = 4`)
 - Increases **air defense factor** by 400% (`air_defence_factor = 4`)
 - Increases **air range** by 400% (`air_range_factor = 4`)
+
+---
+
+### Event cheats.8 - Ultimate Cheats 2
+
+This cheat provides the same powerful modifiers as the "Ultimate Cheats" event, with an additional boost to strategic bombing.
+
+- All modifiers from **Event cheats.7** are included.
+- Increases **strategic bombing effectiveness** by 1300% (`air_strategic_bomber_bombing_factor = 13`).
