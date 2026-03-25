@@ -145,6 +145,10 @@ ideas = {
         navy_max_range_factor = 8
         naval_torpedo_hit_chance_factor = 0.2
         naval_invasion_prep_speed = -0.5
+        naval_torpedo_reveal_chance_factor = -0.75
+        naval_torpedo_screen_penetration_factor = 0.75
+        naval_torpedo_hit_chance_factor = 0.8
+        naval_torpedo_cooldown_factor = -0.65
 
         #carriers and their planes
         navy_carrier_air_targetting_factor = 0.5
@@ -176,6 +180,7 @@ ideas = {
         air_strategic_bomber_bombing_factor = 3
         air_cas_present_factor = 0.5
         naval_strike_attack_factor = 3.2 
+        naval_strike_targetting_factor = 3.2
         air_nav_efficiency = 3.2
         air_intercept_efficiency = 0.5
         air_attack_factor = 0.3
@@ -281,6 +286,19 @@ ideas = {
         air_strategic_bomber_bombing_factor = 13
       }
     }    
+     cheats_9 = {
+      allowed = {
+        always = no
+      }
+      ai_will_do = {
+        factor = 0
+      }
+      picture = generic_research_bonus
+      modifier = {        
+
+        
+      }
+    }  
   }
 } 
     
