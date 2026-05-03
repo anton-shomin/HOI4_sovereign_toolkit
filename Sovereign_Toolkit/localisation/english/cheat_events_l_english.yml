@@ -1,4 +1,4 @@
-﻿l_english:
+l_english:
  cheats_1: "Mighty Economy"
  mighty_economy.t: "Mighty Economy"
  mighty_economy.d: "Economic growth in the country, new trends, democratization of society, and a departure from outdated approaches will transform your economy into an unstoppable force, capable of supporting any military efforts and ensuring the prosperity of your nation."
@@ -32,7 +32,14 @@
 
 
  modernize_technologies: "Modernize Technologies" 
+
  modernize_technologies_desc: "Modern technologies are not only new machines but also new methods of work. We must modernize our technologies to meet modern standards."
 
  step_back_technologies: "Step Back Technologies"
  step_back_technologies_desc: "We have fallen behind in technological development, and we need to take a step back to catch up with the rest of the world. We will focus on improving our existing technologies and methods of work."
+
+ cheats_9: "Superior MIO"
+ superior_mio.t: "Superior MIO"
+ superior_mio.d: "Strengthening the military-industrial organization (MIO), expanding its capabilities, increasing funding, and boosting research bonuses will enhance your war economy and ensure complete dominance on the battlefield."
+ cheats.9.a: "Acquire MIO Enhancements"
+ cheats.9.b: "Decline MIO Enhancements"
