@@ -318,21 +318,30 @@ country_event = {
 }
 country_event = {
 	id = cheats.9
-	title = Cheats
-	desc = cheats
+	title = superior_mio.t
+	desc = superior_mio.d
     picture = GFX_report_event_molotov_ribentrop_handshake
    
 	
 	is_triggered_only = yes
 	option = {
-        name = britain.12.a		
-			  add_ideas = cheats_9
-	}
-	
-	option = {
-		name = britain.12.b
-			remove_ideas = cheats_9		
-	}
+        name = cheats.9.a
+
+        every_military_industrial_organization = {
+            add_mio_size = 1
+            add_mio_funds_gain_factor = 0.25
+            add_mio_research_bonus = 0.05
+        }
+    }
+
+    option = {
+        name = cheats.9.b
+        every_military_industrial_organization = {
+        remove_mio_size = 1
+        remove_mio_funds_gain_factor = 0.25
+        remove_mio_research_bonus = 0.05
+    }
+    }
 	
 }
 
